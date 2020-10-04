@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Animated Login Form</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -10,8 +10,14 @@
 <body>
 	<form class="box" action="index.html" method="post">
 		<h1>Login</h1>
-		<button><i class="fa fa-facebook-f"></i> Login with Facebook</button>
-		<button><i class="fa fa-github"></i> Login with GitHub</button>
+		<!-- <button action="https://www.facebook.com/" method="get" target="_blank"><i class="fa fa-facebook-f"></i> Login with Facebook</button> -->
+
+		<div>
+			<a class="fa-icon" href="https://www.facebook.com/" target="_blank"><i class="fa fa-google"></i> Login with Gmail</a>
+		</div>
+		<div>
+			<a class="fa-icon" href="https://www.github.com/" target="_blank"><i class="fa fa-github"></i> Login with Github</a>
+		</div>
 		<p>Or</p>
 		<input type="text" name="" placeholder="Username">
 		<input type="password" name="" placeholder="Password">

@@ -76,7 +76,7 @@ body {
   	box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
 }
 
-button {
+.fa-icon {
 	border: 0;
 	background: none;
 	display: block;
@@ -90,9 +90,10 @@ button {
 	border-radius: 25px;
 	transition: 0.25s;
 	background-color: #3498db;
+	text-decoration: none;
 }
 
-button:active {
+.fa-icon:active {
 	background-color: #2ecc71;
 }
 
@@ -103,4 +104,19 @@ button:active {
 
 a {
 	color: #2ecc71;
+}
+
+/* RESPONSIVE */
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+	 .box {
+		 width: 90%;
+		 margin: 20px auto;
+		 padding: 5px;
+	 }
+
+	 .box input[type="text"]:focus, 
+	 .box input[type="password"]:focus {
+		 width: 80%;
+	 }
 }
